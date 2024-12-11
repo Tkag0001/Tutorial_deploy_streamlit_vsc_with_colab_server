@@ -4,16 +4,21 @@ This repo shows you how to deploy a **Streamlit** application via **ngrok** usin
 
 ## Description 📖  
 - We will connect the **Colab server** with **Visual Studio Code** and code in this environment via **Remote Tunnels**. 🔗  
-- Then, we will create a **Ngrok** to deploy the app and make it accessible for everyone. 🌐  
+- Then, we will create a **Ngrok** to deploy the app and make it accessible for everyone. 🌐
 
-# Steps by Steps to connect Colab server 📋:  
+## Index:
+- [Step by step to Connect Colab Server 📋](#connect_colab_server)
+- [Step by step to Deploy Streamlit App via Ngrok 🚀](#deploy_streamlit_app_ngrok)
+
+
+<h1 id="connect_colab_server">Step by step to Connect Colab Server 📋</h1>  
 
 ## 1. Connect to Colab Server 🌐  
 ### Step 1️⃣:  
 - Download and upload the folder [deploy_streamlit](./deploy_streamlit/) or clone this repository to your Google Drive.  
 
 ### Step 2️⃣:  
-- Navigate to the folder in your drive and open the file `colab_connect_vsc.ipynb`. The content will look like this:  
+- Navigate to the folder in your drive and open the file colab `connect_vsc.ipynb`. The content will look like this:  
 
   ![connnect_vsc](https://github.com/user-attachments/assets/4d2f8460-ca48-421a-8892-50a9cc0ccead)  
 
@@ -61,4 +66,45 @@ This repo shows you how to deploy a **Streamlit** application via **ngrok** usin
 - Choose the folder you want to work on. In this case, select the `deploy_streamlit` folder to deploy the app.  
 
 - Start coding directly in your Drive folder. Changes will automatically save to the Drive. 💾  
-  ![image](https://github.com/user-attachments/assets/ae2ae292-79c6-4582-a89d-83a94c2aa13f)  
+  ![image](https://github.com/user-attachments/assets/ae2ae292-79c6-4582-a89d-83a94c2aa13f)
+
+---
+
+<h1 id="deploy_streamlit_app_ngrok">Step by step to Deploy Streamlit App via Ngrok 🚀</h1>  
+
+## 1. Sign Up for Ngrok 🛠️  
+- Create an account at [Ngrok](https://ngrok.com/).  
+
+## 2. Install Necessary Extensions ⚙️  
+- In the folder connected above, locate the **Jupyter** extension and install it in `collab-connect`.  
+
+  ![image](https://github.com/user-attachments/assets/870db268-90a1-4353-ac59-0bb3aefde51d)  
+
+## 3. Get Ngrok Token and Deploy 🌐  
+- Retrieve your **Ngrok auth token** from [this page](https://dashboard.ngrok.com/get-started/your-authtoken) and copy it.  
+
+  ![image](https://github.com/user-attachments/assets/36d76873-405c-4e08-9daa-f677d3af4ba0)  
+
+- Open the file **deploy.ipynb**, locate the relevant section, and paste your token.  
+
+  ![image](https://github.com/user-attachments/assets/0161ad5b-60c3-48d5-8c3e-1d0656707841)  
+
+- Run all cells. If prompted, select **Jupyter Kernel**.  
+
+  ![image](https://github.com/user-attachments/assets/84840b47-6ad1-4a2b-a0ec-15972f91e777)  
+
+- After completion, you'll see a link to open your Streamlit app. Share this link with others.  
+
+  ![image](https://github.com/user-attachments/assets/754a989b-857f-4563-9d0b-6e0fa0dcfa1b)  
+
+---
+
+***Note:*** The initial setup might take a few minutes!  
+
+### Log Monitoring:  
+You can check the log output in the file `nohup.out`.  
+
+---
+
+# Example Streamlit App 🎉  
+![image](https://github.com/user-attachments/assets/35074b0d-d004-44db-977d-d8221d355342)  
