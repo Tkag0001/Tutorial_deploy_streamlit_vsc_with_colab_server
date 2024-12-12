@@ -15,12 +15,18 @@ This repo shows you how to deploy a **Streamlit** application via **ngrok** usin
 
 ## 1. Connect to Colab Server 🌐  
 ### Step 1️⃣:  
-- Download and upload the folder [deploy_streamlit](./deploy_streamlit/) or clone this repository to your Google Drive.  
+- If you only want connect Colab server, **don't deploy streamlit app**, you just need go to this file [`connect_vsc.ipynb`](./deploy_streamlit/connect_vsc.ipynb), click **Open in Colab** and follow the next steps.
+
+![image](https://github.com/user-attachments/assets/311ce41c-7c6a-4885-a1e9-d1ba80d72f3b)
+
+  
+- To **deploy streamlit app**, you have to download and upload the folder [deploy_streamlit](./deploy_streamlit/) or clone this repository to your Google Drive.  
 
 ### Step 2️⃣:  
 - Navigate to the folder in your drive and open the file colab `connect_vsc.ipynb`. The content will look like this:  
 
-  ![connnect_vsc](https://github.com/user-attachments/assets/4d2f8460-ca48-421a-8892-50a9cc0ccead)  
+![image](https://github.com/user-attachments/assets/45a80fff-383b-4697-829e-6794b804e8bc)
+
 
 ### Step 3️⃣:  
 - Run all cells in the notebook. A popup will appear on the top left. You need to allow access to your Drive folder.  
